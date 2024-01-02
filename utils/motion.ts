@@ -1,3 +1,5 @@
+
+//  All The Sliding code written here with delay as parameter 
 export function slideInFromLeft(delay: number) {
     return {
       hidden: { x: -100, opacity: 0 },
