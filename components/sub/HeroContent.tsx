@@ -37,8 +37,8 @@ const HeroContent = () => {
                 variants={slideInFromLeft(0.8)}
                 className='text-lg text-grey-400 my-5 max-w-[600px]'
             >
-                I&apos;m a Software Developer and Web Developer.
-                Check out my projects and skills
+                A student of B.E. Information Science and Engineering with a keen interest in programming, who wish to use
+t               echnical knowledge to cater to the needs of the company
             </motion.p>
             <motion.a
                 variants={slideInFromLeft(1)}
