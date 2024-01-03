@@ -1,3 +1,4 @@
+import Encryption from '@/components/main/Encryption'
 import Hero from '@/components/main/Hero'
 import Skill from '@/components/main/Skill'
 import Image from 'next/image'
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero/>
         <Skill/>
+        <Encryption/>
       </div>
     </main>
   )
