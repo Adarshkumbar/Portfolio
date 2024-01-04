@@ -23,7 +23,7 @@ const Projects = () => {
             />
             <ProjectsCard 
                 src='/onlineStore.png'
-                title='My Portfolio'
+                title='Online Store'
                 description='Online website where Customers can buy Smartphones. Laptops , etc. Created using HTML, CSS, JS.'
             />
         </div>
