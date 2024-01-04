@@ -9,19 +9,22 @@ const Projects = () => {
         </h1>
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
             <ProjectsCard 
-                src='/NextWebsite.png'
-                title='Modern Next.js Portfolio'
-                description='Gonna add description later'
+                src='/enow-2.png'
+                title='EntertainmentNow'
+                description='Developed Web App using : React ,Axios and Firebase and TMDB api,users can get info about movies &
+                shows, sort by categories and search for movies/shows.
+                '
             />
             <ProjectsCard 
-                src='/CardImage.png'
-                title='CardImage '
-                description='Gonna add description later'
+                src='/pdfm.png'
+                title='PDF-M'
+                description='Developed using HTML, CSS, Javascript and NodeJS, Merge, Split, Compress PDF files,Convert PDF file to and from Word, Powerpoint, JPG
+                '
             />
             <ProjectsCard 
-                src='/SpaceWebsite.png'
+                src='/onlineStore.png'
                 title='My Portfolio'
-                description='Gonna add description later'
+                description='Online website where Customers can buy Smartphones. Laptops , etc. Created using HTML, CSS, JS.'
             />
         </div>
     </div>

@@ -23,6 +23,14 @@ const HeroContent = () => {
             </motion.div>
 
             <motion.div
+                variants={slideInFromTop}
+                className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
+            >
+                <SparklesIcon className='text-[#b49bff] h-5 w-5'/>
+                <h1 className='Welcome-text text-[13px]'>Web Developer</h1>
+            </motion.div>
+
+            <motion.div
                 variants={slideInFromLeft(0.5)}    
                 className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
             >
@@ -35,7 +43,7 @@ const HeroContent = () => {
 
             <motion.p
                 variants={slideInFromLeft(0.8)}
-                className='text-lg text-grey-400 my-5 max-w-[600px]'
+                className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
                 A student of B.E. Information Science and Engineering with a keen interest in programming, who wish to use
 t               echnical knowledge to cater to the needs of the company
