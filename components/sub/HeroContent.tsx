@@ -46,7 +46,7 @@ const HeroContent = () => {
                 className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
                 A student of B.E. Information Science and Engineering with a keen interest in programming, who wish to use
-t               echnical knowledge to cater to the needs of the company
+                technical knowledge to cater to the needs of the company
             </motion.p>
             <motion.a
                 variants={slideInFromLeft(1)}

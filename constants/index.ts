@@ -85,14 +85,17 @@ export const Skill_data = [
     {
       name: "Github",
       src: "/github.svg",
+      link :"https://github.com/Adarshkumbar"
     },
     {
       name: "LinkedIn",
-      src: "/linkedin.svg",
+      src: "/linkedin.png",
+      link :"https://www.linkedin.com/in/adarshkumbar/"
     },
     {
       name: "Discord",
       src: "/discord.svg",
+      link:"https://discord.gg/Z2kNx7EcJP"
     },
   ];
   

@@ -4,7 +4,7 @@ import {
     RxGithubLogo,
     RxLinkedinLogo,
 } from 'react-icons/rx'
-
+import Link from 'next/link';
 import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
@@ -13,26 +13,38 @@ const Footer = () => {
         <div className='w-full flex flex-col items-center justify-center m-auto'>
             <div className='w-full h-full flex flex-row items-center justify-around flex-wrap'>
                 
-                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
-                    <div className='font-bold text-[20px]'> 
+                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start cursor-pointer'>
+                    <div className='font-bold text-[20px] cursor-pointer'> 
                         Contact Me
                     </div>
-                    <p className='flex flex-row items-center my-[15px] cursor-pointer'>
+                    <Link href={"https://discord.gg/Z2kNx7EcJP"} target="_blank">
+                        <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <RxDiscordLogo/>
                         <span className='text-[15px] ml-[6px]'> Discord </span>
-                    </p>
-                    <p className='flex flex-row items-center my-[15px] cursor-pointer'>
-                        <RxGithubLogo/>
-                        <span className='text-[15px] ml-[6px]'> Github </span>
-                    </p>
+                        </p>
+                        
+                    </Link>
+                    
+                    <Link href={"https://github.com/Adarshkumbar"}>
+                        <p className='flex flex-row items-center my-[15px] cursor-pointer'>
+                            <RxGithubLogo/>
+                            <span className='text-[15px] ml-[6px]'> Github </span>
+                        </p>
+                    </Link>
+
+                    <Link href={'https://www.linkedin.com/in/adarshkumbar/'}>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <RxLinkedinLogo/>
                         <span className='text-[15px] ml-[6px]'> LinkedIn </span>
                     </p>
+                    </Link>
+
+                    <Link href={"adarshkumbarbgm@gmail.com"}>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <SiGmail/>
                         <span className='text-[15px] ml-[6px]'> Gmail</span>
                     </p>
+                    </Link>
                 </div>
                 {/* <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
                     <div className='font-bold text-[16px]'> 
