@@ -48,7 +48,15 @@ const HeroContent = () => {
             </motion.div>
 
     {/* BUTTON TO REVEAL AND HIDE */}
-            <button onClick={handleText}>
+    <a href="AdarshKumbar.pdf" download ><button >
+                <motion.a
+                    variants={slideInFromLeft(1)}
+                    className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[100px] mx-[2px]'
+                >
+                Download Resume
+            </motion.a>
+            </button></a>
+            <button className='mx-[150px] my-[-45px] w-[200px]' onClick={handleText}>
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[200px]'
@@ -56,11 +64,14 @@ const HeroContent = () => {
                     Learn More!
             </motion.a>
             </button>
+
             
+            
+
             {text&&
             <motion.p
                 variants={slideInFromLeft(0.2)}
-                className='text-lg text-gray-400 my-5 max-w-[600px]'
+                className='text-lg text-gray-400 my-8 max-w-[600px]'
             >
                 A student of B.E. Information Science and Engineering with a keen interest in programming, who wish to use
                 technical knowledge to cater to the needs of the company
