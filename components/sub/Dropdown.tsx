@@ -34,7 +34,7 @@ export default function Dropdown(props: Props) {
                 <div className={`absolute top-8 z-30 w-[50px] min-h-[150px] flex flex-col py-4 bg-gradient-to-r from-gray-700 to-white-300 rounded-md ${transClass}`}>
                     {
                         menuItems.map(item =>
-                                <Link href={`${item.link}`}target="_blank">
+                                <Link key={item.title} href={`${item.link}`}target="_blank">
                                     <Image 
                                     src={item.src}
                                     alt={item.title}
