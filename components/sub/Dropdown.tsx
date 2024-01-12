@@ -36,7 +36,7 @@ export default function Dropdown(props: Props) {
                         menuItems.map(item =>
                                 <Link key={item.title} href={`${item.link}`}target="_blank">
                                     <Image 
-                                    src={item.src}
+                                    src={item.src as string}
                                     alt={item.title}
                                     key={item.title}
                                     width={34}
