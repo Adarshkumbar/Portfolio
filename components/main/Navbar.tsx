@@ -3,6 +3,7 @@ import Image from 'next/image'
 // import React, { useState } from 'react'
 import Link from 'next/link';
 import Dropdown from "../sub/Dropdown";
+import { randomBytes } from 'crypto';
 
 export interface MenuItem {
     title: string;
@@ -18,12 +19,12 @@ export interface MenuItem {
         {
             title: "Github",
             src: "/github.svg",
-            link :"https://github.com/Adarshkumbar"
+            link :"https://github.com/Adarshkumbar",     
           },
           {
             title: "LinkedIn",
             src: "/linkedin.png",
-            link :"https://www.linkedin.com/in/adarshkumbar/"
+            link :"https://www.linkedin.com/in/adarshkumbar/",
           },
           {
             title: "Discord",
@@ -84,10 +85,11 @@ const Navbar = () => {
         <div className="flex gap-8 items-center text-white">
             {  menuItems.map((item) => {
                 return item.hasOwnProperty("children") ? (
-                <Dropdown item={item} />
+                <Dropdown key={item.title} item={item} />
                 ) : (
-                < Link className="hover:text-blue-500" href={item?.link || ""}>
+                < Link key={item.title} className="hover:text-blue-500" href={item?.link || ""}>
                 {item.title}
+                
                 </Link>
           );
             })}

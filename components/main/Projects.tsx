@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectsCard from '../sub/ProjectsCard'
-import { SlMenu } from "react-icons/sl"; //hamberger icon
-import { VscChromeClose } from "react-icons/vsc"; //close icon
+
 const Projects = () => {
   return (
     <div className='flex flex-col items-center justify-center py-20'>
