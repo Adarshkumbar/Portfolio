@@ -1,5 +1,4 @@
 "use client"
-
 import React, { use, useState } from 'react'
 import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
@@ -21,7 +20,7 @@ const HeroContent = () => {
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
             <motion.div
                 variants={slideInFromTop}
-                className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
+                className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] '
             >
                 <SparklesIcon className='text-[#b49bff] h-5 w-5'/>
                 <h1 className='Welcome-text text-[13px]'>Software Developer</h1>
@@ -33,6 +32,14 @@ const HeroContent = () => {
             >
                 <SparklesIcon className='text-[#b49bff] h-5 w-5'/>
                 <h1 className='Welcome-text text-[13px]'>Web Developer</h1>
+            </motion.div>
+
+            <motion.div
+                variants={slideInFromTop}
+                className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
+            >
+                <SparklesIcon className='text-[#b49bff] h-5 w-5'/>
+                <h1 className='Welcome-text text-[13px]'>Freelancer</h1>
             </motion.div>
 
             <motion.div
@@ -48,15 +55,16 @@ const HeroContent = () => {
             </motion.div>
 
     {/* BUTTON TO REVEAL AND HIDE */}
-    <a href="AdarshKumbar.pdf" download ><button >
+            <button className='' >
                 <motion.a
+                    href="AdarshKumbar.pdf" download
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[100px] mx-[2px]'
                 >
                 Download Resume
-            </motion.a>
-            </button></a>
-            <button className='mx-[150px] my-[-45px] w-[200px]' onClick={handleText}>
+                </motion.a>
+            </button>
+            <button  onClick={handleText}>
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[200px]'
