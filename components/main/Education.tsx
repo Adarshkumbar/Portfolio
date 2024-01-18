@@ -8,7 +8,7 @@ import Image from "next/image";
 const Education = () => {
   return (
     <section id="education">
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full py-20">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
