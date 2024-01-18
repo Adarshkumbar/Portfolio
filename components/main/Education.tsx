@@ -38,6 +38,10 @@ const Education = () => {
             height={70}
             className=" z-10"
           /> */}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-red-500">
+            {" "}
+            BE, Information Science and Engineering{" "}
+            </span>
             <div className="montserrat text-[20px] font-medium  text-gray-300">KLS Gogte Institute of Technology - 
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
@@ -51,6 +55,11 @@ const Education = () => {
            <br/>
            <br/>
 
+           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-red-500">
+            {" "}
+            Pre University
+            {" "}
+            </span>
            <div className="montserrat text-[20px] font-medium  text-gray-300">Raja Lahkamagouda PU College -
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
@@ -62,6 +71,12 @@ const Education = () => {
            </div>
            <br/>
            <br/>
+
+           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 to-red-500">
+            {" "}
+            High School
+            {" "}
+            </span>
            <div className="montserrat text-[20px] font-medium  text-gray-300">Shri Shivayogi English Medium School -
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
