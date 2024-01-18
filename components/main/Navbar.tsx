@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
             
 
-            <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
+            <div className='w-[600px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex item-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[10px] text-sm md:text-lg px-[20px] py-[10px] rounded-full text-gray-200'>
                     <a href="#about" className='cursor-pointer'>About</a>
                     {/* <Link href="/" className='cursor-pointer'>About Me</Link> */}
