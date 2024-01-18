@@ -3,6 +3,7 @@ import HeroContent from '../sub/HeroContent'
 
 const Hero = () => {
   return (
+    <section id='about'>
     <div className='relative flex flex-col h-full w-full'>
         <video 
             autoPlay
@@ -15,6 +16,7 @@ const Hero = () => {
         </video>
         <HeroContent />
     </div>
+    </section>
   )
 }
 

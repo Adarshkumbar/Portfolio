@@ -57,13 +57,14 @@ const Navbar = () => {
 
             <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex item-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-                    <a href="/" className='cursor-pointer'>About</a>
+                    <a href="#about" className='cursor-pointer'>About</a>
                     {/* <Link href="/" className='cursor-pointer'>About Me</Link> */}
 
                     {/* <Link href="#skills" className='cursor-pointer'>Skills</Link> */}
                     <a href="#skills" className='cursor-pointer'>Skills</a>
                     {/* <Link  href="projects" className='cursor-pointer'>Projects</Link> */}
-                    <a href="#project" className='cursor-pointer'>Projects</a>
+                    <a href="#projects" className='cursor-pointer'>Projects</a>
+                    <a href="#education" className='cursor-pointer'>Education</a>
                 </div>
             </div>
     {/*  SOCIAL MEDIA LINKS */}
