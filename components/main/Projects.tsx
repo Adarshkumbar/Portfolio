@@ -15,17 +15,20 @@ const Projects = () => {
                 description='Developed Web App using : React ,Axios and Firebase and TMDB api,users can get info about movies &
                 shows, sort by categories and search for movies/shows.
                 '
+                link='https://www.youtube.com/'
             />
             <ProjectsCard 
                 src='/pdfm.png'
                 title='PDF-M'
                 description='Developed using HTML, CSS, Javascript and NodeJS, Merge, Split, Compress PDF files,Convert PDF file to and from Word, Powerpoint, JPG
                 '
+                link='https://www.youtube.com/'
             />
             <ProjectsCard 
                 src='/onlineStore.png'
                 title='Online Store'
                 description='Online website where Customers can buy Smartphones. Laptops , etc. Created using HTML, CSS, JS.'
+                link='https://www.youtube.com/'
             />
         </div>
     </div>
