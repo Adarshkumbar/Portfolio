@@ -38,7 +38,7 @@ const Education = () => {
             height={70}
             className=" z-10"
           /> */}
-            <div className="cursive text-[20px] font-medium  text-gray-300">KLS Gogte Institute of Technology - 
+            <div className="montserrat text-[20px] font-medium  text-gray-300">KLS Gogte Institute of Technology - 
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
                 8.57 CGPA{" "}
@@ -51,7 +51,7 @@ const Education = () => {
            <br/>
            <br/>
 
-           <div className="cursive text-[20px] font-medium  text-gray-300">Raja Lahkamagouda PU College -
+           <div className="montserrat text-[20px] font-medium  text-gray-300">Raja Lahkamagouda PU College -
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
                 93%{" "}
@@ -62,7 +62,7 @@ const Education = () => {
            </div>
            <br/>
            <br/>
-           <div className="cursive text-[20px] font-medium  text-gray-300">Shri Shivayogi English Medium School -
+           <div className="montserrat text-[20px] font-medium  text-gray-300">Shri Shivayogi English Medium School -
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-500">
                 {" "}
                 93.6%{" "}
