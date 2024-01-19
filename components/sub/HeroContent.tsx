@@ -34,13 +34,13 @@ const HeroContent = () => {
                 <h1 className='Welcome-text text-[13px]'>Web Developer</h1>
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
                 variants={slideInFromTop}
                 className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
             >
                 <SparklesIcon className='text-[#b49bff] h-5 w-5'/>
                 <h1 className='Welcome-text text-[13px]'>Freelancer</h1>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
                 variants={slideInFromLeft(0.5)}    
