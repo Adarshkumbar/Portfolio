@@ -53,30 +53,30 @@ const HeroContent = () => {
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> ADARSH KUMBAR </span>
                 </span>
             </motion.div>
-
-    {/* BUTTON TO REVEAL AND HIDE */}
-            <button className='' >
+            
+            <button className='text-left' >
                 <motion.a
                     href="AdarshKumbar.pdf" download
                     variants={slideInFromLeft(1)}
-                    className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[100px] mx-[2px]'
+                    className='Welcome-box py-[8px] px-[9px] border border-[#7042f88b] opacity-[1]  button-primary text-white cursor-pointer font-mono'
                 >
-                Download Resume
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 text-lg'> Download Resume </span>
                 </motion.a>
             </button>
-            <button  onClick={handleText}>
+    {/* BUTTON TO REVEAL AND HIDE */}
+            {/* <button  onClick={handleText}>
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounder-lg max-w-[200px]'
                 >
                     Learn More!
             </motion.a>
-            </button>
+            </button> */}
 
             
             
 
-            {text&&
+            {/* {text&& */}
             <motion.p
                 variants={slideInFromLeft(0.2)}
                 className='text-lg text-gray-400 my-8 max-w-[600px]'
@@ -84,7 +84,7 @@ const HeroContent = () => {
                 A student of B.E. Information Science and Engineering with a keen interest in programming, who wish to use
                 technical knowledge to cater to the needs of the company
             </motion.p>
-            } 
+            {/* }  */}
         </div>
         <motion.div
             variants={slideInFromRight(0.8)}

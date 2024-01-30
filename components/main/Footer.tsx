@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const Footer = () => {
   return (
     <section id="footer">
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full py-20 ">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full py-20 border-style: solid;">
       <div className="absolute w-auto h-auto top-0 z-[5] top-20">
           <span className="text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
             CONTACT ME 
