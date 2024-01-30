@@ -14,15 +14,15 @@ const Education = () => {
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
             {" "}
             EDUCATION{" "}
           </span>
         </motion.div>
       </div>
 
-      <div className="flex flex-col  items-center justify-left translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col text-left group cursor-pointer w-auto h-auto">
+      <div className="flex flex-col  items-center justify-left translate-y-[-50px] relative z-[20] w-auto h-[100%] my-3">
+        <div className="flex flex-col text-left group cursor-pointer w-auto h-auto ">
       
           {/* <Image
             src="/LockTop.png"

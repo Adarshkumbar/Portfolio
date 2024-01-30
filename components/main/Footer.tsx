@@ -19,7 +19,7 @@ const changeColorE = (e : any ) =>{
     <section id="footer">
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full py-20">
       <div className="absolute w-auto h-auto z-[5] top-20 ">
-          <span className="text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
+          <span className="text-transparent text-[35px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
             CONTACT ME 
           </span>
       </div>
@@ -27,7 +27,7 @@ const changeColorE = (e : any ) =>{
         <div className="flex flex-col items-center text-left group cursor-pointer w-full h-auto " >
         
             <Link href={"https://github.com/Adarshkumbar"} target='_blank'>
-                    <p className='flex flex-row items-center text-[20px] my-[25px] cursor-pointer text-gray-200 '>
+                    <p className='flex flex-row items-center text-[18px] my-[25px] cursor-pointer text-gray-200 '>
                             <RxGithubLogo/>
                              <span className=' ml-[6px] ' onMouseEnter={changeColor} onMouseLeave={changeColorE}> Github </span>
                      </p>
@@ -35,7 +35,7 @@ const changeColorE = (e : any ) =>{
 
 
            <Link href={"https://discord.gg/Z2kNx7EcJP"} target="_blank" >
-                         <p className='flex flex-row text-[20px] items-center my-[25px] cursor-pointer text-gray-200'>
+                         <p className='flex flex-row text-[18px] items-center my-[25px] cursor-pointer text-gray-200'>
                          <RxDiscordLogo />
                          <span className='ml-[6px]' onMouseEnter={changeColor} onMouseLeave={changeColorE}> Discord </span>
                          </p>
@@ -43,14 +43,14 @@ const changeColorE = (e : any ) =>{
             </Link>
 
            <Link href={'https://www.linkedin.com/in/adarshkumbar/'} target='_blank'>
-                     <p className='flex flex-row items-center my-[25px] text-[20px] cursor-pointer text-gray-200'>
+                     <p className='flex flex-row items-center my-[25px] text-[18px] cursor-pointer text-gray-200'>
                          <RxLinkedinLogo/>
                          <span className=' ml-[6px] ' onMouseEnter={changeColor} onMouseLeave={changeColorE}> LinkedIn </span>
                      </p>
             </Link>
 
             <Link href="mailto:adarshkumbarbgm@gmail.com"  style={{ zIndex: 10 }}>
-                         <p className='flex flex-row items-center text-[20px] my-[25px] cursor-pointer text-gray-200' >
+                         <p className='flex flex-row items-center text-[18px] my-[25px] cursor-pointer text-gray-200' >
                          <SiGmail/>
                          <span className='ml-[6px] text-gray-200' onMouseEnter={changeColor} onMouseLeave={changeColorE}> Gmail</span>
                          </p>

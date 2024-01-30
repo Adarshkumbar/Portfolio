@@ -13,7 +13,7 @@ interface Props{
 const ProjectsCard = ({src , title , description , link} : Props) => {
   return (
   
-    <div className='relative overflow-hidden rounded-lg border border-[#2A0E61]'>
+    <div className='relative overflow-hidden rounded-lg border border-[#2A0E61] '>
       <Image
       src={src}
       alt={title}
@@ -29,7 +29,10 @@ const ProjectsCard = ({src , title , description , link} : Props) => {
         <p className='mt-2 text-gray-300'>
           {description}
         </p>
-        
+        {/* <button className='cursor-pointer' onClick={()=> {return <a href='link'/>}}>
+          🍎 
+        </button>
+         */}
                 {/* <motion.a
                     href= { link }
                     variants={slideInFromLeft(1)}

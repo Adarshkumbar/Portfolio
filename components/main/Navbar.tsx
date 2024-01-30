@@ -37,8 +37,8 @@ export interface MenuItem {
 
 const Navbar = () => {
   return (
-    <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10'>
-        <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
+    <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 '>
+        <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px] '>
             <Link href={"/"}>
             <div  className='h-auto w-auto flex flex-row items-center'>
                 <Image 
@@ -57,13 +57,14 @@ const Navbar = () => {
 
             <div className='w-[600px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex item-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[10px] text-sm md:text-lg px-[20px] py-[10px] rounded-full text-gray-200'>
-                    <a href="#about" className='cursor-pointer'>About</a>
+                    <a href="#about" className='cursor-pointer '>About</a>
                     {/* <Link href="/" className='cursor-pointer'>About Me</Link> */}
 
                     {/* <Link href="#skills" className='cursor-pointer'>Skills</Link> */}
-                    <a href="#skills" className='cursor-pointer'>Skills</a>
+                    <a href="#skills" className='cursor-pointer invisible sm:visible'>Skills</a>
                     {/* <Link  href="projects" className='cursor-pointer'>Projects</Link> */}
                     <a href="#projects" className='cursor-pointer'>Projects</a>
+                    <a href="#skills" className='cursor-pointer invisible sm:hidden'>Skills</a>
                     <a href="#education" className='cursor-pointer'>Education</a>
                 </div>
             </div>
