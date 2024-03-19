@@ -9,9 +9,10 @@ interface Props {
     width : number;
     height : number;
     index : number;
+    text : string;
 }
 
-const SkillDataProvider = ({src, width , height, index } : Props) => {
+const SkillDataProvider = ({src, width , height, index , text } : Props) => {
   const {ref , inView} = useInView({
     triggerOnce : true
   })
@@ -37,7 +38,7 @@ const SkillDataProvider = ({src, width , height, index } : Props) => {
         height={height}
         alt='skill image'  
       />
-
+       <p style={{color:"white" , textAlign:"center"}}>{text}</p>
     </motion.div>
   )
 }
