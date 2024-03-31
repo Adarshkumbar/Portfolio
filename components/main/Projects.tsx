@@ -13,15 +13,15 @@ const Projects = () => {
             <ProjectsCard 
                 src='/enow-2.png'
                 title='EntertainmentNow'
-                description='Developed Web App using : React ,Axios and Firebase and TMDB api,users can get info about movies &
-                shows, sort by categories and search for movies/shows.
+                description='Developed Web App using : React ,Axios ,Express, Firebase and TMDB api.Users can get info about movies &
+                shows, sort by categories and search for movies/shows.Also watchlist.
                 '
                 link='https://www.youtube.com/'
             />
             <ProjectsCard 
                 src='/pdfm.png'
                 title='PDF-M'
-                description='Developed using HTML, CSS, Javascript and NodeJS, Merge, Split, Compress PDF files,Convert PDF file to and from Word, Powerpoint, JPG
+                description='Developed using Javascript and NodeJS. Merge, Split, Compress PDF files,Convert PDF file to and from Word, Powerpoint, JPG
                 '
                 link='https://www.youtube.com/'
             />
