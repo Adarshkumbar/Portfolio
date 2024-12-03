@@ -12,7 +12,7 @@ export default function Home() {
         <Skill/>
         <Projects/>
         <Education />
-        <Encryption/>
+        {/* <Encryption/> */}
       </div>
     </main>
   )
